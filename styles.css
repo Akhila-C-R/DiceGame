@@ -1,0 +1,112 @@
+body
+{
+    background-color: #21243d;
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #ff7c7c;
+    margin-top: 30px;
+    margin-bottom: 0;
+    
+}
+
+h3
+{
+    font-family: 'Pangolin', cursive;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #ffd082;
+    margin: 20px;
+}
+
+img
+{
+    width: 60%;
+}
+
+footer
+{
+    margin-top: 5%;
+    color: #88e1f2;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.2rem;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
+.dice
+{
+    display: inline-block;
+    padding-bottom: 5%;
+}
+
+.playbtn
+{
+    background: #FF7C7C;
+    background-image: -webkit-linear-gradient(top, #FF7C7C, #CC6262);
+    background-image: -moz-linear-gradient(top, #FF7C7C, #CC6262);
+    background-image: -ms-linear-gradient(top, #FF7C7C, #CC6262);
+    background-image: -o-linear-gradient(top, #FF7C7C, #CC6262);
+    background-image: linear-gradient(to bottom, #FF7C7C, #CC6262);
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem; 
+
+    color:  #21243d;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 0.2rem 1.25rem;
+
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+
+    border: solid #FF7C7C 0.063rem;
+    display: inline-block;
+
+    margin-top: 0.5rem;
+}
+
+.playbtn:hover 
+{
+    border: solid #FFD082 0.063rem;
+    background: #FFD082;
+    background-image : -webkit-linear-gradient(top, #FFD082, #D1AB6B);
+    background-image : -moz-linear-gradient(top, #FFD082, #D1AB6B);
+    background-image : -ms-linear-gradient(top, #FFD082, #D1AB6B);
+    background-image : -o-linear-gradient(top, #FFD082, #D1AB6B);
+    background-image : linear-gradient(to bottom, #FFD082, #D1AB6B);
+
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    border-radius: 0.625rem;
+
+    color:  #21243d;
+}
+.playbtn:active
+{
+    top:10px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+
+    transform: translateY(3px);
+}
+
+.playbtn:focus 
+{ 
+    outline:0;
+    background: #fad8a2;
+
+}
+
